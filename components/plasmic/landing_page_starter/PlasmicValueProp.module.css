@@ -1,0 +1,67 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  position: relative;
+  column-gap: 16px;
+}
+.rootvertical {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  column-gap: 0px;
+}
+.rootcard {
+  box-shadow: 0px 1px 1px 1px #0000001a;
+  background: var(--token-W2A5RQe6b7UB);
+  border-radius: 16px;
+  padding: 24px;
+}
+.iconContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  background: var(--token-sqEaWPUYfQkH);
+  border-radius: 8px;
+  padding: 8px;
+}
+.iconContainerflatIcon {
+  background: none;
+  padding: 0px;
+}
+.iconContainercard {
+  background: none;
+}
+.img__dF2EW {
+  position: relative;
+  object-fit: cover;
+  width: 56px;
+  height: 56px;
+  flex-shrink: 0;
+}
+.img__dF2EW > picture > img {
+  object-fit: cover;
+}
+.contentContainer {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  row-gap: 4px;
+}
+.slotTargetTitle {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+}
+.slotTargetTitledarkBackground {
+  color: var(--token-W2A5RQe6b7UB);
+}
+.slotTargetDescription {
+  color: var(--token-okebz8ri0zar);
+}
+.slotTargetDescriptiondarkBackground {
+  color: var(--token-W2A5RQe6b7UB);
+}
