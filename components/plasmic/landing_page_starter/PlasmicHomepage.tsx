@@ -191,6 +191,8 @@ function PlasmicHomepage__RenderFunc(props: {
 
   const globalVariants = _useGlobalVariants();
 
+  const currentUser = useCurrentUser?.() || {};
+
   const pageMetadata = generateDynamicMetadata(
     wrapQueriesWithLoadingProxy({}),
     $ctx as PageCtx
@@ -243,10 +245,26 @@ function PlasmicHomepage__RenderFunc(props: {
               className={classNames("__wab_instance", sty.navbar)}
             />
 
+<<<<<<< HEAD
             <ShaderVideo
               data-plasmic-name={"htmlVideo"}
               data-plasmic-override={overrides.htmlVideo}
               className={classNames("__wab_instance", sty.htmlVideo)}
+=======
+            <Video
+              data-plasmic-name={"htmlVideo"}
+              data-plasmic-override={overrides.htmlVideo}
+              className={classNames("__wab_instance", sty.htmlVideo)}
+              controls={true}
+              loop={false}
+              playsInline={false}
+              ref={ref => {
+                $refs["htmlVideo"] = ref;
+              }}
+              src={
+                "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm"
+              }
+>>>>>>> 3b27df95bce8b222d9942e295cedfebcb38f42d3
             />
 
             <div className={classNames("all", sty.columns__q7I9)}>

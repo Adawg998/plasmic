@@ -127,6 +127,8 @@ function PlasmicDescription__RenderFunc(props: {
   const refsRef = React.useRef({});
   const $refs = refsRef.current;
 
+  const currentUser = useCurrentUser?.() || {};
+
   const styleTokensClassNames = _useStyleTokens();
 
   return (
