@@ -26974,6 +26974,37 @@
           "name": "Fetcher",
           "displayName": "plasmic-data-source-fetcher",
           "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        },
+        {
+          "id": "unNtSmYHo-8x",
+          "name": "ShaderVideo",
+          "displayName": "ShaderVideo",
+          "componentImportPath": "./components/ShaderVideo"
+        }
+      ],
+      "customFunctions": []
+    },
+    {
+      "projectId": "5v1p2i7GvsoMJk4KqrA6F3",
+      "projectApiToken": "3tpUfxQvphO2cHJi05AuO753aYZNx8rBT7az6UNI7jXbmOJk2XXkoH4WvRjeGXTNuoqaBAC6S3boxyriSGZRA",
+      "projectName": "rive",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/rive/plasmic.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "styleTokensProviderFilePath": "plasmic/rive/PlasmicStyleTokensProvider.tsx",
+      "dataTokensFilePath": "",
+      "projectModuleFilePath": "plasmic/rive/plasmic.tsx",
+      "codeComponents": [
+        {
+          "id": "GP6Z9NbsKBEd",
+          "name": "RivePlayer",
+          "displayName": "rive",
+          "componentImportPath": "@plasmicpkgs/rive"
         }
       ],
       "customFunctions": []
