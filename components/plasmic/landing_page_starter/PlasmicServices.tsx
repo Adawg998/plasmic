@@ -176,6 +176,8 @@ function PlasmicServices__RenderFunc(props: {
   const refsRef = React.useRef({});
   const $refs = refsRef.current;
 
+  const currentUser = useCurrentUser?.() || {};
+
   const pageMetadata = generateDynamicMetadata(
     wrapQueriesWithLoadingProxy({}),
     $ctx as PageCtx

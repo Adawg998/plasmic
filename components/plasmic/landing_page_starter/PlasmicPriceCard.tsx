@@ -173,6 +173,8 @@ function PlasmicPriceCard__RenderFunc(props: {
     [$props, $ctx, $refs]
   );
 
+  const currentUser = useCurrentUser?.() || {};
+
   const $state = useDollarState(stateSpecs, {
     $props,
     $ctx,
